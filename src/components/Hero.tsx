@@ -1,5 +1,5 @@
-import React from 'react';
 import { ArrowRight, Zap, Shield, Globe } from 'lucide-react';
+import heroImage from '../assets/home/banner.jpg';
 
 const Hero = () => {
   return (
@@ -7,7 +7,7 @@ const Hero = () => {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://images.pexels.com/photos/9800029/pexels-photo-9800029.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop"
+          src={heroImage}
           alt="Wind turbines at sunset"
           className="w-full h-full object-cover"
         />

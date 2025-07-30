@@ -1,5 +1,4 @@
-import React from 'react';
-import { Leaf, Phone, Mail, MapPin, ExternalLink } from 'lucide-react';
+import { Phone, Mail, MapPin } from 'lucide-react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -21,43 +20,17 @@ const Footer = () => {
     { name: 'Accessories', href: '/products' }
   ];
 
+  const turnkeySolutionsLinks = [
+    { name: 'Gas Delivery Systems', href: '/turnkey-solutions/gas-delivery-systems' },
+    { name: 'Chemical Delivery Systems', href: '/turnkey-solutions/chemical-delivery-systems' },
+    { name: 'Cryogenic Tanks', href: '/turnkey-solutions/cryogenic-tanks' }
+  ];
+
   return (
     <footer className="bg-gray-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Main Footer Content */}
         <div className="py-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
-          {/* Company Info */}
-          <div className="lg:col-span-1">
-            <div className="flex items-center space-x-3 mb-6">
-              <div className="relative">
-                <Leaf className="h-10 w-10 text-green-500" />
-                <div className="absolute -top-1 -right-1 w-3 h-3 bg-blue-500 rounded-full"></div>
-              </div>
-              <div>
-                <h3 className="text-xl font-bold text-white">SCT</h3>
-                <p className="text-xs text-gray-400">GAS EQUIPMENT TRADING FZCO</p>
-              </div>
-            </div>
-            <p className="text-gray-400 leading-relaxed mb-6">
-              Your trusted partner for all renewable energy and semiconductor industry needs. 
-              Quality components for critical operations.
-            </p>
-            <div className="space-y-3">
-              <div className="flex items-center text-gray-400 hover:text-white transition-colors duration-300">
-                <Phone className="h-4 w-4 mr-3 text-blue-400" />
-                <a href="tel:+971058572703" className="hover:text-blue-400">
-                  +971 0585724703
-                </a>
-              </div>
-              <div className="flex items-center text-gray-400 hover:text-white transition-colors duration-300">
-                <Mail className="h-4 w-4 mr-3 text-green-400" />
-                <a href="mailto:sales@sctgulf.com" className="hover:text-green-400">
-                  sales@sctgulf.com
-                </a>
-              </div>
-            </div>
-          </div>
-
           {/* Menu */}
           <div>
             <h4 className="text-lg font-semibold text-white mb-6">Menu</h4>
@@ -90,27 +63,44 @@ const Footer = () => {
             </nav>
           </div>
 
+          {/* Turnkey Solutions */}
+          <div>
+            <h4 className="text-lg font-semibold text-white mb-6">Turnkey Solutions</h4>
+            <nav className="space-y-3">
+              {turnkeySolutionsLinks.map((link) => (
+                <a key={link.name} href={link.href} className="block text-gray-400 hover:text-white transition-colors duration-300">
+                  {link.name}
+                </a>
+              ))}
+            </nav>
+          </div>
+
           {/* Contact Info */}
           <div>
             <h4 className="text-lg font-semibold text-white mb-6">Find Us</h4>
             <div className="space-y-4">
               <div className="text-gray-400">
                 <p className="font-medium text-white mb-2">SCT Gas Equipment Trading FZCO</p>
-                <div className="flex items-start">
-                  <MapPin className="h-4 w-4 mr-2 mt-1 text-red-400 flex-shrink-0" />
-                  <p className="text-sm leading-relaxed">
-                    51666-01, Building A1, Dubai Digital Park, Dubai Silicon Oasis, Dubai, United Arab Emirates.
-                  </p>
+                <div className="space-y-3">
+                  <div className="flex items-center text-gray-400 hover:text-white transition-colors duration-300">
+                    <Phone className="h-4 w-4 mr-3 text-blue-400" />
+                    <a href="tel:+971058572703" className="hover:text-blue-400">
+                      +971 0585724703
+                    </a>
+                  </div>
+                  <div className="flex items-center text-gray-400 hover:text-white transition-colors duration-300">
+                    <Mail className="h-4 w-4 mr-3 text-green-400" />
+                    <a href="mailto:sales@sctgulf.com" className="hover:text-green-400">
+                      sales@sctgulf.com
+                    </a>
+                  </div>
+                  <div className="flex items-center text-gray-400 hover:text-white transition-colors duration-300">
+                    <MapPin className="h-6 w-6 mr-3 text-red-400" />
+                    <a href="https://maps.app.goo.gl/bEby8wTUrYpzHU4U9" className="hover:text-red-400">
+                      51666-01, Building A1, Dubai Digital Park, Dubai Silicon Oasis, Dubai, United Arab Emirates.
+                    </a>
+                  </div>
                 </div>
-              </div>
-              <div className="pt-4">
-                <h5 className="text-white font-medium mb-2">Additional Contact</h5>
-                <a 
-                  href="mailto:info@sctgulf.com"
-                  className="text-gray-400 hover:text-green-400 transition-colors duration-300 text-sm"
-                >
-                  info@sctgulf.com
-                </a>
               </div>
             </div>
           </div>

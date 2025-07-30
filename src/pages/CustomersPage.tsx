@@ -1,36 +1,38 @@
-import React from 'react';
 import { Star, Users, Globe, Award, Quote, ArrowRight } from 'lucide-react';
+import agemLogo from '../assets/home/customers/agem.png';
+import adaniLogo from '../assets/home/customers/adani.png';
+import sanLogo from '../assets/home/customers/logosan.png';
+import tataPowerLogo from '../assets/home/customers/tata-power.png';
 
 const CustomersPage = () => {
   const stats = [
-    { icon: Users, value: "500+", label: "Satisfied Customers", description: "Across various industries" },
-    { icon: Globe, value: "25+", label: "Countries Served", description: "Global presence and support" },
-    { icon: Award, value: "15+", label: "Years Experience", description: "Proven track record" },
-    { icon: Star, value: "4.9", label: "Customer Rating", description: "Exceptional service quality" }
+    { icon: Users, value: "50+", label: "Satisfied Customers", description: "Across various industries" },
+    { icon: Globe, value: "5+", label: "Countries Served", description: "Global presence and support" },
+    { icon: Award, value: "10+", label: "Years Experience", description: "Proven track record" },
   ];
 
   const customers = [
     { 
       name: "AGEM", 
-      logo: "https://via.placeholder.com/200x80/059669/ffffff?text=AGEM",
+      logo: agemLogo,
       industry: "Renewable Energy",
       description: "Leading renewable energy solutions provider"
     },
     { 
       name: "Adani", 
-      logo: "https://via.placeholder.com/200x80/1e40af/ffffff?text=ADANI",
+      logo: adaniLogo,
       industry: "Energy & Infrastructure",
       description: "Multinational conglomerate in energy sector"
     },
     { 
       name: "SAN", 
-      logo: "https://via.placeholder.com/200x80/7c3aed/ffffff?text=SAN",
-      industry: "Solar Manufacturing",
+      logo: sanLogo,
+      industry: "Hydrolics & Neumatics",
       description: "Advanced solar technology manufacturer"
     },
     { 
       name: "Tata Power", 
-      logo: "https://via.placeholder.com/200x80/dc2626/ffffff?text=TATA+POWER",
+      logo: tataPowerLogo,
       industry: "Power Generation",
       description: "India's largest integrated power company"
     }
@@ -120,7 +122,7 @@ const CustomersPage = () => {
             <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-green-600 mx-auto"></div>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {stats.map((stat, index) => (
               <div 
                 key={index}

@@ -1,32 +1,39 @@
-import React from 'react';
 import { ArrowRight } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
 
 const Products = () => {
+  const navigate = useNavigate();
+
   const products = [
     {
       title: "Tubes",
       image: "https://images.pexels.com/photos/159298/gears-cogs-machine-machinery-159298.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop",
-      description: "Precision tubes that form the backbone of your operations"
+      description: "Precision tubes that form the backbone of your operations",
+      path: "/products/tubes"
     },
     {
-      title: "Valves", 
+      title: "Valves",
       image: "https://images.pexels.com/photos/586019/pexels-photo-586019.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop",
-      description: "High-quality valves for precise flow control and regulation"
+      description: "High-quality valves for precise flow control and regulation",
+      path: "/products/valves"
     },
     {
       title: "Fittings",
       image: "https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop",
-      description: "Premium fittings that ensure seamless integration"
+      description: "Premium fittings that ensure seamless integration",
+      path: "/products/fittings"
     },
     {
       title: "Regulators",
       image: "https://images.pexels.com/photos/257736/pexels-photo-257736.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop",
-      description: "Advanced pressure regulation systems for optimal performance"
+      description: "Advanced pressure regulation systems for optimal performance",
+      path: "/products/regulators"
     },
     {
       title: "Accessories",
       image: "https://images.pexels.com/photos/162553/keys-workshop-mechanic-tools-162553.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop",
-      description: "Complete range of accessories for all your industrial needs"
+      description: "Complete range of accessories for all your industrial needs",
+      path: "/products/accessories"
     }
   ];
 
@@ -39,7 +46,7 @@ const Products = () => {
             Our Product Portfolio
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Meticulously curated components designed to meet the diverse requirements 
+            Meticulously curated components designed to meet the diverse requirements
             of modern manufacturing processes
           </p>
           <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-green-600 mx-auto mt-8"></div>
@@ -48,12 +55,12 @@ const Products = () => {
         {/* Products Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
           {products.map((product, index) => (
-            <div 
+            <div
               key={index}
               className="group bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 border border-gray-100"
             >
               <div className="relative overflow-hidden">
-                <img 
+                <img
                   src={product.image}
                   alt={product.title}
                   className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-500"
@@ -67,7 +74,10 @@ const Products = () => {
                 <p className="text-gray-600 leading-relaxed mb-6">
                   {product.description}
                 </p>
-                <button className="group/btn inline-flex items-center text-blue-600 hover:text-blue-700 font-semibold transition-colors duration-300">
+                <button
+                  onClick={() => navigate(product.path)}
+                  className="group/btn inline-flex items-center text-blue-600 hover:text-blue-700 font-semibold transition-colors duration-300"
+                >
                   Learn More
                   <ArrowRight className="ml-2 h-4 w-4 group-hover/btn:translate-x-1 transition-transform duration-300" />
                 </button>
@@ -84,7 +94,7 @@ const Products = () => {
           <p className="text-xl mb-8 opacity-90">
             Our team of experts can help you find the perfect components for your specific requirements
           </p>
-          <a 
+          <a
             href="/contact"
             className="inline-flex items-center bg-white text-blue-600 hover:bg-gray-100 px-8 py-4 rounded-full font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-lg"
           >
