@@ -1,19 +1,21 @@
-import React from 'react';
 import { Star, Users, Globe, Award } from 'lucide-react';
+import agemLogo from '../assets/home/customers/agem.png';
+import adaniLogo from '../assets/home/customers/adani.png';
+import sanLogo from '../assets/home/customers/logosan.png';
+import tataPowerLogo from '../assets/home/customers/tata-power.png';
 
 const Customers = () => {
   const stats = [
-    { icon: Users, value: "500+", label: "Satisfied Customers" },
-    { icon: Globe, value: "25+", label: "Countries Served" },
-    { icon: Award, value: "15+", label: "Years Experience" },
-    { icon: Star, value: "4.9", label: "Customer Rating" }
+    { icon: Users, value: "50+", label: "Satisfied Customers" },
+    { icon: Globe, value: "5+", label: "Countries Served" },
+    { icon: Award, value: "10+", label: "Years Experience" }
   ];
 
   const customers = [
-    { name: "AGEM", logo: "https://via.placeholder.com/200x80/059669/ffffff?text=AGEM" },
-    { name: "Adani", logo: "https://via.placeholder.com/200x80/1e40af/ffffff?text=ADANI" },
-    { name: "SAN", logo: "https://via.placeholder.com/200x80/7c3aed/ffffff?text=SAN" },
-    { name: "Tata Power", logo: "https://via.placeholder.com/200x80/dc2626/ffffff?text=TATA+POWER" }
+    { name: "AGEM", logo: agemLogo },
+    { name: "Adani", logo: adaniLogo },
+    { name: "SAN", logo: sanLogo },
+    { name: "Tata Power", logo: tataPowerLogo }
   ];
 
   return (
@@ -31,9 +33,9 @@ const Customers = () => {
         </div>
 
         {/* Stats */}
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
+        <div className="grid grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
           {stats.map((stat, index) => (
-            <div 
+            <div
               key={index}
               className="text-center group"
             >
@@ -57,12 +59,12 @@ const Customers = () => {
           </h3>
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
             {customers.map((customer, index) => (
-              <div 
+              <div
                 key={index}
                 className="group bg-white/10 backdrop-blur-sm rounded-2xl p-6 hover:bg-white/20 transition-all duration-300 transform hover:scale-105 border border-white/10"
               >
                 <div className="flex items-center justify-center h-20">
-                  <img 
+                  <img
                     src={customer.logo}
                     alt={customer.name}
                     className="max-h-16 max-w-full object-contain opacity-80 group-hover:opacity-100 transition-opacity duration-300"
@@ -82,7 +84,7 @@ const Customers = () => {
               ))}
             </div>
             <blockquote className="text-xl md:text-2xl text-white mb-8 leading-relaxed">
-              "SCT Gas Equipment Trading has been our trusted partner for precision components. 
+              "SCT Gas Equipment Trading has been our trusted partner for precision components.
               Their quality and reliability have been instrumental in our manufacturing success."
             </blockquote>
             <div className="text-gray-300">

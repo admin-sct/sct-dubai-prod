@@ -1,5 +1,5 @@
-import React from 'react';
 import { Factory, Cpu, Wrench, Award, Users, Globe, Target, Lightbulb } from 'lucide-react';
+import aboutImage from '../assets/about/about_us.jpeg';
 
 const AboutPage = () => {
   const features = [
@@ -107,7 +107,7 @@ const AboutPage = () => {
             </div>
             <div className="relative">
               <img 
-                src="https://images.pexels.com/photos/3862132/pexels-photo-3862132.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop"
+                src={aboutImage}
                 alt="Industrial equipment"
                 className="rounded-2xl shadow-2xl"
               />
