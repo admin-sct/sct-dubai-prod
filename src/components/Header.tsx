@@ -32,7 +32,11 @@ const Header = () => {
           <div className="flex items-center space-x-3">
             <a href="/">
               <div className="relative">
-                <img src={logo} alt="SCT Gas Equipment Trading FZCO" className="h-10 w-25" />
+                <img
+                  src={logo}
+                  alt="SCT Gas Equipment Trading FZCO"
+                  className={`h-10 w-25 transition-all duration-300 ${!isScrolled ? 'brightness-0 invert' : ''}`}
+                />
               </div>
             </a>
           </div>
@@ -44,8 +48,8 @@ const Header = () => {
                 key={item.name}
                 href={item.href}
                 className={`font-medium transition-all duration-300 hover:scale-105 ${isScrolled
-                    ? 'text-gray-700 hover:text-blue-600'
-                    : 'text-white hover:text-blue-200'
+                  ? 'text-gray-700 hover:text-blue-600'
+                  : 'text-white hover:text-blue-200'
                   }`}
               >
                 {item.name}
