@@ -1,34 +1,18 @@
 [
   {
-    "name": "Stainless Steel Precision Tubes",
-    "image": "https://images.pexels.com/photos/159298/gears-cogs-machine-machinery-159298.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+    "name": "Electro Polished Tubes",
+    "image": "/src/assets/products/tubes/EP Tubes.png"
   },
   {
-    "name": "High Purity Gas Delivery Tubes",
-    "image": "https://images.pexels.com/photos/3862132/pexels-photo-3862132.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+    "name": "Bright Annealing Tubes",
+    "image": "/src/assets/products/tubes/BA Tubes.png"
   },
   {
-    "name": "Ultra-Clean Process Tubes",
-    "image": "https://images.pexels.com/photos/2280549/pexels-photo-2280549.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+    "name": "Mechanical Tubes",
+    "image": "/src/assets/products/tubes/MP Tubes.png"
   },
   {
-    "name": "Seamless Stainless Steel Tubes",
-    "image": "https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
-  },
-  {
-    "name": "Electropolished Tubes",
-    "image": "https://images.pexels.com/photos/257736/pexels-photo-257736.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
-  },
-  {
-    "name": "Custom Length Precision Tubes",
-    "image": "https://images.pexels.com/photos/162553/keys-workshop-mechanic-tools-162553.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
-  },
-  {
-    "name": "Vacuum System Tubes",
-    "image": "https://images.pexels.com/photos/586019/pexels-photo-586019.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
-  },
-  {
-    "name": "Chemical Resistant Tubes",
-    "image": "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+    "name": "Annealing Pickling Tubes",
+    "image": "/src/assets/products/tubes/AP Tubes.png"
   }
 ]

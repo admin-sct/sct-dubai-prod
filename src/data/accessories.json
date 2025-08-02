@@ -1,34 +1,22 @@
 [
   {
-    "name": "Pressure Gauges - Digital Display",
-    "image": "https://images.pexels.com/photos/162553/keys-workshop-mechanic-tools-162553.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+    "name": "Cylinder Connectors",
+    "image": "/src/assets/products/accessories/cylinder connectors.jpeg"
   },
   {
-    "name": "Flow Meters - Mass Flow",
-    "image": "https://images.pexels.com/photos/159298/gears-cogs-machine-machinery-159298.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+    "name": "Pressure Gauges",
+    "image": "/src/assets/products/accessories/Pressure Gauges.jpeg"
   },
   {
-    "name": "Filters - High Purity Gas",
-    "image": "https://images.pexels.com/photos/586019/pexels-photo-586019.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+    "name": "Pigtails",
+    "image": "/src/assets/products/accessories/Pigtails.jpeg"
   },
   {
-    "name": "Manifolds - Gas Distribution",
-    "image": "https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+    "name": "Gas Cabinet",
+    "image": "/src/assets/products/accessories/Gas Cabinet.jpeg"
   },
   {
-    "name": "Purifiers - Gas Purification",
-    "image": "https://images.pexels.com/photos/257736/pexels-photo-257736.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
-  },
-  {
-    "name": "Sensors - Pressure & Temperature",
-    "image": "https://images.pexels.com/photos/3862132/pexels-photo-3862132.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
-  },
-  {
-    "name": "Mounting Hardware - System Support",
-    "image": "https://images.pexels.com/photos/2280549/pexels-photo-2280549.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
-  },
-  {
-    "name": "Seals & Gaskets - Leak Prevention",
-    "image": "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+    "name": "Filters",
+    "image": "/src/assets/products/accessories/Filters.jpeg"
   }
 ]

@@ -49,10 +49,9 @@ const AboutPage = () => {
   ];
 
   const stats = [
-    { number: "500+", label: "Satisfied Customers" },
-    { number: "25+", label: "Countries Served" },
-    { number: "15+", label: "Years Experience" },
-    { number: "1000+", label: "Products Delivered" }
+    { number: "50+", label: "Satisfied Customers" },
+    { number: "5+", label: "Countries Served" },
+    { number: "10+", label: "Years Experience" },
   ];
 
   return (
@@ -116,7 +115,7 @@ const AboutPage = () => {
           </div>
 
           {/* Stats */}
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 mb-20">
+          <div className="grid grid-cols-2 lg:grid-cols-3 gap-8 mb-20">
             {stats.map((stat, index) => (
               <div key={index} className="text-center">
                 <div className="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-green-600 mb-2">

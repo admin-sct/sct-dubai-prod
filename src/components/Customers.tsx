@@ -2,7 +2,7 @@ import { Star, Users, Globe, Award } from 'lucide-react';
 import agemLogo from '../assets/home/customers/agem.png';
 import adaniLogo from '../assets/home/customers/adani.png';
 import sanLogo from '../assets/home/customers/logosan.png';
-import tataPowerLogo from '../assets/home/customers/tata-power.png';
+import windbondLogo from '../assets/home/customers/winbond.png';
 
 const Customers = () => {
   const stats = [
@@ -15,7 +15,7 @@ const Customers = () => {
     { name: "AGEM", logo: agemLogo },
     { name: "Adani", logo: adaniLogo },
     { name: "SAN", logo: sanLogo },
-    { name: "Tata Power", logo: tataPowerLogo }
+    { name: "Winbond", logo: windbondLogo }
   ];
 
   return (
