@@ -1,34 +1,38 @@
 [
   {
-    "name": "Ball Valves - Stainless Steel",
-    "image": "https://images.pexels.com/photos/586019/pexels-photo-586019.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+    "name": "Check Valve",
+    "image": "/src/assets/products/valves/Check Valves.jpeg"
   },
   {
-    "name": "Needle Valves - High Precision",
-    "image": "https://images.pexels.com/photos/159298/gears-cogs-machine-machinery-159298.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+    "name": "Relief Valve",
+    "image": "/src/assets/products/valves/Relief Valve.jpeg"
   },
   {
-    "name": "Check Valves - Non-Return",
-    "image": "https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+    "name": "Diaphragm Valve",
+    "image": "/src/assets/products/valves/Diaphragm Valves.jpeg"
   },
   {
-    "name": "Gate Valves - Industrial Grade",
-    "image": "https://images.pexels.com/photos/257736/pexels-photo-257736.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+    "name": "Needle Valve",
+    "image": "/src/assets/products/valves/Needle Valve.jpeg"
   },
   {
-    "name": "Diaphragm Valves - Ultra Pure",
-    "image": "https://images.pexels.com/photos/3862132/pexels-photo-3862132.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+    "name": "Ball Valve",
+    "image": "/src/assets/products/valves/ball-valve.png"
   },
   {
-    "name": "Butterfly Valves - Flow Control",
-    "image": "https://images.pexels.com/photos/2280549/pexels-photo-2280549.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+    "name": "Gauge Valve",
+    "image": "/src/assets/products/valves/Gauge Valve.jpeg"
   },
   {
-    "name": "Solenoid Valves - Automated",
-    "image": "https://images.pexels.com/photos/162553/keys-workshop-mechanic-tools-162553.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+    "name": "Excess Flow Valve",
+    "image": "/src/assets/products/valves/Excess Flow Valve.jpeg"
   },
   {
-    "name": "Relief Valves - Safety",
-    "image": "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+    "name": "Metering Valve",
+    "image": "/src/assets/products/valves/Metering Valve.jpeg"
+  },
+  {
+    "name": "Cylinder Valve",
+    "image": "/src/assets/products/valves/Cylinder Valve.jpeg"
   }
 ]

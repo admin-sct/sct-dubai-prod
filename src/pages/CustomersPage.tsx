@@ -2,7 +2,7 @@ import { Star, Users, Globe, Award, Quote, ArrowRight } from 'lucide-react';
 import agemLogo from '../assets/home/customers/agem.png';
 import adaniLogo from '../assets/home/customers/adani.png';
 import sanLogo from '../assets/home/customers/logosan.png';
-import tataPowerLogo from '../assets/home/customers/tata-power.png';
+import windbondLogo from '../assets/home/customers/winbond.png';
 
 const CustomersPage = () => {
   const stats = [
@@ -31,8 +31,8 @@ const CustomersPage = () => {
       description: "Advanced solar technology manufacturer"
     },
     { 
-      name: "Tata Power", 
-      logo: tataPowerLogo,
+      name: "Winbond", 
+      logo: windbondLogo,
       industry: "Power Generation",
       description: "India's largest integrated power company"
     }
@@ -67,25 +67,21 @@ const CustomersPage = () => {
       name: "Semiconductor Manufacturing",
       description: "Precision components for chip fabrication and testing",
       image: "https://images.pexels.com/photos/2582937/pexels-photo-2582937.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop",
-      customers: "150+"
     },
     {
       name: "Solar Energy",
       description: "Equipment for solar panel production and installation",
       image: "https://images.pexels.com/photos/9800029/pexels-photo-9800029.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop",
-      customers: "200+"
     },
     {
       name: "Chemical Processing",
       description: "Specialized components for chemical and petrochemical industries",
       image: "https://images.pexels.com/photos/3862132/pexels-photo-3862132.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop",
-      customers: "100+"
     },
     {
       name: "Research & Development",
       description: "Laboratory equipment and precision instruments",
       image: "https://images.pexels.com/photos/2280549/pexels-photo-2280549.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop",
-      customers: "50+"
     }
   ];
 
@@ -163,12 +159,10 @@ const CustomersPage = () => {
                 <div className="flex items-center justify-center h-20 mb-6">
                   <img 
                     src={customer.logo}
-                    alt={customer.name}
                     className="max-h-16 max-w-full object-contain opacity-80 group-hover:opacity-100 transition-opacity duration-300"
                   />
                 </div>
                 <div className="text-center">
-                  <h3 className="text-lg font-bold text-gray-900 mb-2">{customer.name}</h3>
                   <p className="text-blue-600 font-medium text-sm mb-2">{customer.industry}</p>
                   <p className="text-gray-600 text-sm">{customer.description}</p>
                 </div>
@@ -200,11 +194,6 @@ const CustomersPage = () => {
                     alt={industry.name}
                     className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-500"
                   />
-                  <div className="absolute top-4 right-4">
-                    <span className="bg-gradient-to-r from-blue-600 to-green-600 text-white px-3 py-1 rounded-full text-sm font-medium">
-                      {industry.customers} Customers
-                    </span>
-                  </div>
                 </div>
                 <div className="p-8">
                   <h3 className="text-2xl font-bold text-gray-900 mb-4 group-hover:text-blue-600 transition-colors duration-300">

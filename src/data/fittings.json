@@ -1,34 +1,94 @@
 [
   {
-    "name": "Compression Fittings - Stainless Steel",
-    "image": "https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+    "name": "Elbow",
+    "image": "/src/assets/products/fittings/elbow.png"
   },
   {
-    "name": "Welded Fittings - High Purity",
-    "image": "https://images.pexels.com/photos/159298/gears-cogs-machine-machinery-159298.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+    "name": "Equal Tee",
+    "image": "/src/assets/products/fittings/equal-tee.png"
   },
   {
-    "name": "Tube Fittings - Quick Connect",
-    "image": "https://images.pexels.com/photos/586019/pexels-photo-586019.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+    "name": "Multi-Header Tee",
+    "image": "/src/assets/products/fittings/multi-header-tee.png"
   },
   {
-    "name": "Elbow Fittings - 90 Degree",
-    "image": "https://images.pexels.com/photos/257736/pexels-photo-257736.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+    "name": "Union Cross",
+    "image": "/src/assets/products/fittings/union-cross.png"
   },
   {
-    "name": "Tee Fittings - Three Way",
-    "image": "https://images.pexels.com/photos/3862132/pexels-photo-3862132.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+    "name": "Reducing Tee",
+    "image": "/src/assets/products/fittings/reducing-tee.png"
   },
   {
-    "name": "Union Fittings - Disconnectable",
-    "image": "https://images.pexels.com/photos/2280549/pexels-photo-2280549.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+    "name": "Caps",
+    "image": "/src/assets/products/fittings/caps.png"
   },
   {
-    "name": "Reducer Fittings - Size Adaptation",
-    "image": "https://images.pexels.com/photos/162553/keys-workshop-mechanic-tools-162553.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+    "name": "Concentric Reducer",
+    "image": "/src/assets/products/fittings/concentric-reducer.png"
   },
   {
-    "name": "Cross Fittings - Four Way",
-    "image": "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+    "name": "Eccentric Reducer",
+    "image": "/src/assets/products/fittings/eccentric reducer.png"
+  },
+  {
+    "name": "Cap Reducer",
+    "image": "/src/assets/products/fittings/cap-reducer.png"
+  },
+  {
+    "name": "Joint Tee",
+    "image": "/src/assets/products/fittings/joint-tee.png"
+  },
+  {
+    "name": "Joint Multi-Header Tee",
+    "image": "/src/assets/products/fittings/multi-header-joint-tee.png"
+  },
+  {
+    "name": "Joint Reducer",
+    "image": "/src/assets/products/fittings/joint-reducer.png"
+  },
+  {
+    "name": "RF blind Flange",
+    "image": "/src/assets/products/fittings/rf-joint-flange.png"
+  },
+  {
+    "name": "Lap Joint",
+    "image": "/src/assets/products/fittings/lap-joint-flange.jpg"
+  },
+  {
+    "name": "Teflon Gasket",
+    "image": "/src/assets/products/fittings/teflon-gasket.jpg"
+  },
+  {
+    "name": "Pipe Flange",
+    "image": "/src/assets/products/fittings/pipe-flange.jpg"
+  },
+  {
+    "name": "Coaxial Elbow",
+    "image": "/src/assets/products/fittings/coaxial-elbow.jpg"
+  },
+  {
+    "name": "Coaxial Equal Tee",
+    "image": "/src/assets/products/fittings/coaxial-equal-tee.png"
+  },
+  {
+    "name": "Coaxial Reducing Tee",
+    "image": "/src/assets/products/fittings/coaxial-reducing-tee.png"
+  },
+  {
+    "name": "Stop Spacer",
+    "image": "/src/assets/products/fittings/stop-spacer.jpg"
+  },
+  {
+    "name": "Coaxial Half Tube",
+    "image": "/src/assets/products/fittings/coaxial-half-tube.jpg"
+  },
+  {
+    "name": "Coaxial Over Tube",
+    "image": "/src/assets/products/fittings/coaxial-over-tube.jpg"
+  },
+  {
+    "name": "Coaxial Reducer",
+    "image": "/src/assets/products/fittings/coaxial-reducer-new.jpg"
   }
 ]
