@@ -1,22 +1,22 @@
 [
   {
     "name": "Cylinder Connectors",
-    "image": "/src/assets/products/accessories/cylinder connectors.jpeg"
+    "image": "/products/accessories/cylinder connectors.jpeg"
   },
   {
     "name": "Pressure Gauges",
-    "image": "/src/assets/products/accessories/Pressure Gauges.jpeg"
+    "image": "/products/accessories/Pressure Gauges.jpeg"
   },
   {
     "name": "Pigtails",
-    "image": "/src/assets/products/accessories/Pigtails.jpeg"
+    "image": "/products/accessories/Pigtails.jpeg"
   },
   {
     "name": "Gas Cabinet",
-    "image": "/src/assets/products/accessories/Gas Cabinet.jpeg"
+    "image": "/products/accessories/Gas Cabinet.jpeg"
   },
   {
     "name": "Filters",
-    "image": "/src/assets/products/accessories/Filters.jpeg"
+    "image": "/products/accessories/Filters.jpeg"
   }
 ]
