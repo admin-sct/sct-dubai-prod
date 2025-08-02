@@ -1,94 +1,94 @@
 [
   {
     "name": "Elbow",
-    "image": "/src/assets/products/fittings/elbow.png"
+    "image": "/products/fittings/elbow.png"
   },
   {
     "name": "Equal Tee",
-    "image": "/src/assets/products/fittings/equal-tee.png"
+    "image": "/products/fittings/equal-tee.png"
   },
   {
     "name": "Multi-Header Tee",
-    "image": "/src/assets/products/fittings/multi-header-tee.png"
+    "image": "/products/fittings/multi-header-tee.png"
   },
   {
     "name": "Union Cross",
-    "image": "/src/assets/products/fittings/union-cross.png"
+    "image": "/products/fittings/union-cross.png"
   },
   {
     "name": "Reducing Tee",
-    "image": "/src/assets/products/fittings/reducing-tee.png"
+    "image": "/products/fittings/reducing-tee.png"
   },
   {
     "name": "Caps",
-    "image": "/src/assets/products/fittings/caps.png"
+    "image": "/products/fittings/caps.png"
   },
   {
     "name": "Concentric Reducer",
-    "image": "/src/assets/products/fittings/concentric-reducer.png"
+    "image": "/products/fittings/concentric-reducer.png"
   },
   {
     "name": "Eccentric Reducer",
-    "image": "/src/assets/products/fittings/eccentric reducer.png"
+    "image": "/products/fittings/eccentric reducer.png"
   },
   {
     "name": "Cap Reducer",
-    "image": "/src/assets/products/fittings/cap-reducer.png"
+    "image": "/products/fittings/cap-reducer.png"
   },
   {
     "name": "Joint Tee",
-    "image": "/src/assets/products/fittings/joint-tee.png"
+    "image": "/products/fittings/joint-tee.png"
   },
   {
     "name": "Joint Multi-Header Tee",
-    "image": "/src/assets/products/fittings/multi-header-joint-tee.png"
+    "image": "/products/fittings/multi-header-joint-tee.png"
   },
   {
     "name": "Joint Reducer",
-    "image": "/src/assets/products/fittings/joint-reducer.png"
+    "image": "/products/fittings/joint-reducer.png"
   },
   {
     "name": "RF blind Flange",
-    "image": "/src/assets/products/fittings/rf-joint-flange.png"
+    "image": "/products/fittings/rf-joint-flange.png"
   },
   {
     "name": "Lap Joint",
-    "image": "/src/assets/products/fittings/lap-joint-flange.jpg"
+    "image": "/products/fittings/lap-joint-flange.jpg"
   },
   {
     "name": "Teflon Gasket",
-    "image": "/src/assets/products/fittings/teflon-gasket.jpg"
+    "image": "/products/fittings/teflon-gasket.jpg"
   },
   {
     "name": "Pipe Flange",
-    "image": "/src/assets/products/fittings/pipe-flange.jpg"
+    "image": "/products/fittings/pipe-flange.jpg"
   },
   {
     "name": "Coaxial Elbow",
-    "image": "/src/assets/products/fittings/coaxial-elbow.jpg"
+    "image": "/products/fittings/coaxial-elbow.jpg"
   },
   {
     "name": "Coaxial Equal Tee",
-    "image": "/src/assets/products/fittings/coaxial-equal-tee.png"
+    "image": "/products/fittings/coaxial-equal-tee.png"
   },
   {
     "name": "Coaxial Reducing Tee",
-    "image": "/src/assets/products/fittings/coaxial-reducing-tee.png"
+    "image": "/products/fittings/coaxial-reducing-tee.png"
   },
   {
     "name": "Stop Spacer",
-    "image": "/src/assets/products/fittings/stop-spacer.jpg"
+    "image": "/products/fittings/stop-spacer.jpg"
   },
   {
     "name": "Coaxial Half Tube",
-    "image": "/src/assets/products/fittings/coaxial-half-tube.jpg"
+    "image": "/products/fittings/coaxial-half-tube.jpg"
   },
   {
     "name": "Coaxial Over Tube",
-    "image": "/src/assets/products/fittings/coaxial-over-tube.jpg"
+    "image": "/products/fittings/coaxial-over-tube.jpg"
   },
   {
     "name": "Coaxial Reducer",
-    "image": "/src/assets/products/fittings/coaxial-reducer-new.jpg"
+    "image": "/products/fittings/coaxial-reducer-new.jpg"
   }
 ]

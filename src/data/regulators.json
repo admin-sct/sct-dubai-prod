@@ -1,14 +1,14 @@
 [
   {
     "name": "Low Flow Regulator",
-    "image": "/src/assets/products/regulators/low-flow.jpg"
+    "image": "/products/regulators/low-flow.jpg"
   },
   {
     "name": "Medium Flow Regulator",
-    "image": "/src/assets/products/regulators/medium-flow.jpg"
+    "image": "/products/regulators/medium-flow.jpg"
   },
   {
     "name": "High Flow Regulator",
-    "image": "/src/assets/products/regulators/high-flow.jpg"
+    "image": "/products/regulators/high-flow.jpg"
   }
 ]
