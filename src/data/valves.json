@@ -1,38 +1,34 @@
 [
   {
     "name": "Check Valve",
-    "image": "/products/valves/Check Valves.jpeg"
+    "image": "/products/valves/check-valve.png"
   },
   {
     "name": "Relief Valve",
-    "image": "/products/valves/Relief Valve.jpeg"
+    "image": "/products/valves/relief-valve.png"
   },
   {
     "name": "Diaphragm Valve",
-    "image": "/products/valves/Diaphragm Valves.jpeg"
+    "image": "/products/valves/diaphragm-valve.png"
   },
   {
     "name": "Needle Valve",
-    "image": "/products/valves/Needle Valve.jpeg"
-  },
-  {
-    "name": "Ball Valve",
-    "image": "/products/valves/ball-valve.png"
+    "image": "/products/valves/needle-valve.png"
   },
   {
     "name": "Gauge Valve",
-    "image": "/products/valves/Gauge Valve.jpeg"
+    "image": "/products/valves/gauge-valve.png"
   },
   {
     "name": "Excess Flow Valve",
-    "image": "/products/valves/Excess Flow Valve.jpeg"
+    "image": "/products/valves/excess-flow-valve.png"
   },
   {
     "name": "Metering Valve",
-    "image": "/products/valves/Metering Valve.jpeg"
+    "image": "/products/valves/metering-valve.png"
   },
   {
     "name": "Cylinder Valve",
-    "image": "/products/valves/Cylinder Valve.jpeg"
+    "image": "/products/valves/cylinder-valve.png"
   }
 ]

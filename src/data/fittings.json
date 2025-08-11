@@ -1,94 +1,98 @@
 [
   {
-    "name": "Elbow",
-    "image": "/products/fittings/elbow.png"
-  },
-  {
-    "name": "Equal Tee",
-    "image": "/products/fittings/equal-tee.png"
-  },
-  {
-    "name": "Multi-Header Tee",
-    "image": "/products/fittings/multi-header-tee.png"
+    "name": "Unions",
+    "image": "/products/fittings/Unions - Edited.png"
   },
   {
     "name": "Union Cross",
-    "image": "/products/fittings/union-cross.png"
+    "image": "/products/fittings/Union Cross - Edited.png"
   },
   {
-    "name": "Reducing Tee",
-    "image": "/products/fittings/reducing-tee.png"
+    "name": "NPT Elbows",
+    "image": "/products/fittings/NPT Elbows - Edited.png"
   },
   {
     "name": "Caps",
-    "image": "/products/fittings/caps.png"
+    "image": "/products/fittings/Caps - Edited.png"
   },
   {
-    "name": "Concentric Reducer",
-    "image": "/products/fittings/concentric-reducer.png"
+    "name": "Front Ferrules",
+    "image": "/products/fittings/Front Ferrules - Edited.png"
   },
   {
-    "name": "Eccentric Reducer",
-    "image": "/products/fittings/eccentric reducer.png"
+    "name": "Female NPT Connectors",
+    "image": "/products/fittings/Female NPT Connectors - Edited.png"
   },
   {
-    "name": "Cap Reducer",
-    "image": "/products/fittings/cap-reducer.png"
+    "name": "Reducers",
+    "image": "/products/fittings/Reducers - Edited.png"
   },
   {
-    "name": "Joint Tee",
-    "image": "/products/fittings/joint-tee.png"
+    "name": "Reducing Union Tees",
+    "image": "/products/fittings/Reducing Union Tees - Edited.png"
   },
   {
-    "name": "Joint Multi-Header Tee",
-    "image": "/products/fittings/multi-header-joint-tee.png"
+    "name": "Ferrule Set",
+    "image": "/products/fittings/Ferrule Set - Edited.png"
   },
   {
-    "name": "Joint Reducer",
-    "image": "/products/fittings/joint-reducer.png"
+    "name": "Nuts",
+    "image": "/products/fittings/Nuts - Edited.png"
   },
   {
-    "name": "RF blind Flange",
-    "image": "/products/fittings/rf-joint-flange.png"
+    "name": "Back Ferrules",
+    "image": "/products/fittings/Back Ferrules - Edited.png"
   },
   {
-    "name": "Lap Joint",
-    "image": "/products/fittings/lap-joint-flange.jpg"
+    "name": "Female NPT Elbows",
+    "image": "/products/fittings/Female NPT Elbows - Edited.png"
   },
   {
-    "name": "Teflon Gasket",
-    "image": "/products/fittings/teflon-gasket.jpg"
+    "name": "Male NPT Elbows",
+    "image": "/products/fittings/Male NPT Elbows - Edited.png"
   },
   {
-    "name": "Pipe Flange",
-    "image": "/products/fittings/pipe-flange.jpg"
+    "name": "Female Branch Tees",
+    "image": "/products/fittings/Female Branch Tees - Edited.png"
   },
   {
-    "name": "Coaxial Elbow",
-    "image": "/products/fittings/coaxial-elbow.jpg"
+    "name": "Plugs",
+    "image": "/products/fittings/Plugs - Edited.png"
   },
   {
-    "name": "Coaxial Equal Tee",
-    "image": "/products/fittings/coaxial-equal-tee.png"
+    "name": "Male Run Tees",
+    "image": "/products/fittings/Male Run Tees - Edited.png"
   },
   {
-    "name": "Coaxial Reducing Tee",
-    "image": "/products/fittings/coaxial-reducing-tee.png"
+    "name": "Reducing Union",
+    "image": "/products/fittings/Reducing Union - Edited.png"
   },
   {
-    "name": "Stop Spacer",
-    "image": "/products/fittings/stop-spacer.jpg"
+    "name": "Female Run Tees",
+    "image": "/products/fittings/Female Run Tees - Edited.png"
   },
   {
-    "name": "Coaxial Half Tube",
-    "image": "/products/fittings/coaxial-half-tube.jpg"
+    "name": "Female NPT Adapter",
+    "image": "/products/fittings/Female NPT Adapter - Edited.png"
   },
   {
-    "name": "Coaxial Over Tube",
-    "image": "/products/fittings/coaxial-over-tube.jpg"
+    "name": "Bulkhead Unions",
+    "image": "/products/fittings/Bulkhead Unions - Edited.png"
   },
   {
-    "name": "Coaxial Reducer",
-    "image": "/products/fittings/coaxial-reducer-new.jpg"
+    "name": "Male Branch Tees",
+    "image": "/products/fittings/Male Branch Tees - Edited.png"
+  },
+  {
+    "name": "Male NPT Connectors",
+    "image": "/products/fittings/Male NPT Connectors - Edited.png"
+  },
+  {
+    "name": "Union Tee",
+    "image": "/products/fittings/Union Tee - Edited.png"
+  },
+  {
+    "name": "Male NPT Adapter",
+    "image": "/products/fittings/Male NPT Adapter - Edited.png"
   }
 ]
