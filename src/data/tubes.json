@@ -1,18 +1,10 @@
 [
   {
     "name": "Electro Polished Tubes",
-    "image": "/products/tubes/EP Tubes.png"
+    "image": "/products/tubes/EP-Tubes.jpg"
   },
   {
     "name": "Bright Annealing Tubes",
-    "image": "/products/tubes/BA Tubes.png"
-  },
-  {
-    "name": "Mechanical Tubes",
-    "image": "/products/tubes/MP Tubes.png"
-  },
-  {
-    "name": "Annealing Pickling Tubes",
-    "image": "/products/tubes/AP Tubes.png"
+    "image": "/products/tubes/BA-Tubes.jpg"
   }
 ]
