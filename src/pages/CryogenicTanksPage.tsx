@@ -1,5 +1,5 @@
-import React from 'react';
 import { ArrowLeft, ArrowRight, Snowflake, Shield, Thermometer, CheckCircle, AlertTriangle, Wrench, Gauge, BarChart3, Clock, Zap } from 'lucide-react';
+import cryogenicTanks from '../assets/turnkey-solutions-categories/cryogenic-tanks.jpg';
 
 const CryogenicTanksPage = () => {
   const features = [
@@ -111,7 +111,7 @@ const CryogenicTanksPage = () => {
     },
     {
       icon: Clock,
-      metric: "30+ Years",
+      metric: "10+ Years",
       label: "Service Life",
       description: "Long-lasting durability and reliability"
     },
@@ -202,7 +202,7 @@ const CryogenicTanksPage = () => {
             </div>
             <div className="relative">
               <img 
-                src="https://images.pexels.com/photos/586019/pexels-photo-586019.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop"
+                src={cryogenicTanks}
                 alt="Cryogenic storage tank"
                 className="rounded-2xl shadow-2xl"
               />

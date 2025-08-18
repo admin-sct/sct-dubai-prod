@@ -1,5 +1,5 @@
-import React from 'react';
 import { ArrowLeft, ArrowRight, Shield, Droplets, Settings, CheckCircle, AlertTriangle, Wrench, Beaker, FlaskConical, TestTube, Microscope } from 'lucide-react';
+import chemicalDeliverySystems from '../assets/turnkey-solutions-categories/chemical-delivery-systems.png';
 
 const ChemicalDeliverySystemsPage = () => {
   const features = [
@@ -156,7 +156,7 @@ const ChemicalDeliverySystemsPage = () => {
             </div>
             <div className="relative">
               <img 
-                src="https://images.pexels.com/photos/3862132/pexels-photo-3862132.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop"
+                src={chemicalDeliverySystems}
                 alt="Chemical delivery system"
                 className="rounded-2xl shadow-2xl"
               />

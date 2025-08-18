@@ -77,26 +77,26 @@ const Footer = () => {
 
           {/* Contact Info */}
           <div>
-            <h4 className="text-lg font-semibold text-white mb-6">Find Us</h4>
+            <h4 className="text-lg font-semibold text-white mb-4">Find Us</h4>
             <div className="space-y-4">
               <div className="text-gray-400">
-                <p className="font-medium text-white mb-2">SCT Gas Equipment Trading FZCO</p>
-                <div className="space-y-3">
-                  <div className="flex items-center text-gray-400 hover:text-white transition-colors duration-300">
-                    <Phone className="h-4 w-4 mr-3 text-blue-400" />
-                    <a href="tel:+971058572703" className="hover:text-blue-400">
+                <p className="font-medium text-white mb-3">SCT Gas Equipment Trading FZCO</p>
+                <div className="space-y-4">
+                  <div className="flex items-start text-gray-400 hover:text-white transition-colors duration-300">
+                    <Phone className="h-5 w-5 mr-3 mt-0.5 text-blue-400 flex-shrink-0" />
+                    <a href="tel:+971058572703" className="hover:text-blue-400 leading-relaxed">
                       +971 0585724703
                     </a>
                   </div>
-                  <div className="flex items-center text-gray-400 hover:text-white transition-colors duration-300">
-                    <Mail className="h-4 w-4 mr-3 text-green-400" />
-                    <a href="mailto:sales@sctgulf.com" className="hover:text-green-400">
+                  <div className="flex items-start text-gray-400 hover:text-white transition-colors duration-300">
+                    <Mail className="h-5 w-5 mr-3 mt-0.5 text-green-400 flex-shrink-0" />
+                    <a href="mailto:sales@sctgulf.com" className="hover:text-green-400 leading-relaxed">
                       sales@sctgulf.com
                     </a>
                   </div>
-                  <div className="flex items-center text-gray-400 hover:text-white transition-colors duration-300">
-                    <MapPin className="h-6 w-6 mr-3 text-red-400" />
-                    <a href="https://maps.app.goo.gl/bEby8wTUrYpzHU4U9" className="hover:text-red-400">
+                  <div className="flex items-start text-gray-400 hover:text-white transition-colors duration-300">
+                    <MapPin className="h-5 w-5 mr-3 mt-0.5 text-red-400 flex-shrink-0" />
+                    <a href="https://maps.app.goo.gl/bEby8wTUrYpzHU4U9" className="hover:text-red-400 leading-relaxed">
                       51666-01, Building A1, Dubai Digital Park, Dubai Silicon Oasis, Dubai, United Arab Emirates.
                     </a>
                   </div>
