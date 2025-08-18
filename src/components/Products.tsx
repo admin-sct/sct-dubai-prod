@@ -1,6 +1,6 @@
 import { ArrowRight } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
-import tubes from '../assets/product-categories/tubes.jpg';
+import tubes from '../assets/product-categories/tubes.png';
 import valves from '../assets/product-categories/valves.jpg';
 import fittings from '../assets/product-categories/fittings.jpg';
 import regulators from '../assets/product-categories/regulators.jpg';

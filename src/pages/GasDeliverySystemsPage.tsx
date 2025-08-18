@@ -1,5 +1,5 @@
-import React from 'react';
 import { ArrowLeft, ArrowRight, Zap, Shield, Settings, CheckCircle, Gauge, Wrench, AlertTriangle, Users, Award, TrendingUp } from 'lucide-react';
+import gasDeliverySystems from '../assets/turnkey-solutions-categories/gas-delivery-systems.png';
 
 const GasDeliverySystemsPage = () => {
   const features = [
@@ -180,7 +180,7 @@ const GasDeliverySystemsPage = () => {
             </div> 
             <div className="relative">
               <img 
-                src="https://images.pexels.com/photos/3862132/pexels-photo-3862132.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop"
+                src={gasDeliverySystems}
                 alt="Gas delivery system"
                 className="rounded-2xl shadow-2xl"
               />

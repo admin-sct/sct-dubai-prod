@@ -3,7 +3,7 @@ import { ArrowRight, Filter, Search, ExternalLink } from 'lucide-react';
 import fittings from '../assets/product-categories/fittings.jpg';
 import regulators from '../assets/product-categories/regulators.jpg';
 import accessories from '../assets/product-categories/accessories.jpg';
-import tubes from '../assets/product-categories/tubes.jpg';
+import tubes from '../assets/product-categories/tubes.png';
 import valves from '../assets/product-categories/valves.jpg';
 
 const ProductsPage = () => {
@@ -105,8 +105,8 @@ const ProductsPage = () => {
                     key={category}
                     onClick={() => setSelectedCategory(category)}
                     className={`px-4 py-2 rounded-full font-medium transition-all duration-300 ${selectedCategory === category
-                        ? 'bg-gradient-to-r from-blue-600 to-green-600 text-white shadow-lg'
-                        : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                      ? 'bg-gradient-to-r from-blue-600 to-green-600 text-white shadow-lg'
+                      : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
                       }`}
                   >
                     {category}

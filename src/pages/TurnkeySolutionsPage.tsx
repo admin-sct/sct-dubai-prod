@@ -1,5 +1,9 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { ArrowRight, Filter, Search, ExternalLink } from 'lucide-react';
+
+import gasDeliverySystems from '../assets/turnkey-solutions-categories/gas-delivery-systems.png';
+import chemicalDeliverySystems from '../assets/turnkey-solutions-categories/chemical-delivery-systems.png';
+import cryogenicTanks from '../assets/turnkey-solutions-categories/cryogenic-tanks.jpg';
 
 const TurnkeySolutionsPage = () => {
   const [selectedCategory, setSelectedCategory] = useState('All');
@@ -11,26 +15,23 @@ const TurnkeySolutionsPage = () => {
     {
       title: "Gas Delivery Systems",
       category: "Gas Delivery Systems",
-      image: "https://images.pexels.com/photos/3862132/pexels-photo-3862132.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop",
+      image: gasDeliverySystems,
       description: "Advanced gas delivery and distribution systems for semiconductor and industrial applications",
-      link: "/turnkey-solutions/gas-delivery-systems",
-      count: "8+ Solutions"
+      link: "/turnkey-solutions/gas-delivery-systems"
     },
     {
       title: "Chemical Delivery Systems", 
       category: "Chemical Delivery Systems",
-      image: "https://images.pexels.com/photos/159298/gears-cogs-machine-machinery-159298.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop",
+      image: chemicalDeliverySystems,
       description: "Complete chemical handling and distribution systems for safe and precise chemical delivery",
-      link: "/turnkey-solutions/chemical-delivery-systems",
-      count: "8+ Solutions"
+      link: "/turnkey-solutions/chemical-delivery-systems"
     },
     {
       title: "Cryogenic Tanks",
       category: "Cryogenic Tanks",
-      image: "https://images.pexels.com/photos/586019/pexels-photo-586019.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop",
+      image: cryogenicTanks,
       description: "High-performance cryogenic storage and handling solutions for ultra-low temperature applications",
-      link: "/turnkey-solutions/cryogenic-tanks",
-      count: "8+ Solutions"
+      link: "/turnkey-solutions/cryogenic-tanks"
     }
   ];
 
@@ -126,11 +127,6 @@ const TurnkeySolutionsPage = () => {
                     alt={solution.title}
                     className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
                   />
-                  <div className="absolute top-4 right-4">
-                    <span className="bg-white/90 backdrop-blur-sm text-gray-800 px-3 py-1 rounded-full text-sm font-medium">
-                      {solution.count}
-                    </span>
-                  </div>
                   <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 </div>
                 
