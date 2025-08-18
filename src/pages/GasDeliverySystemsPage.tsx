@@ -153,8 +153,11 @@ const GasDeliverySystemsPage = () => {
               <p className="text-lg text-gray-700 leading-relaxed mb-6">
                 Our Gas Delivery Systems are engineered to provide ultra-pure, reliable, and safe gas distribution for semiconductor manufacturing, solar panel production, and other critical industrial processes. These systems ensure optimal performance while maintaining the highest purity standards.
               </p>
-              <p className="text-lg text-gray-700 leading-relaxed">
+              <p className="text-lg text-gray-700 leading-relaxed mb-6">
                 From automated switching systems to comprehensive monitoring solutions, our gas delivery systems are designed to meet the stringent requirements of modern high-tech manufacturing environments.
+              </p>
+              <p className="text-lg text-gray-700 leading-relaxed">
+                We specialize in ultra-high purity gas handling, precision flow control, and advanced safety systems that ensure contamination-free delivery for your most critical processes.
               </p>
             </div>
             <div className="relative">
@@ -295,6 +298,73 @@ const GasDeliverySystemsPage = () => {
                 </div>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Key Advantages Section */}
+      <section className="py-20 bg-gradient-to-br from-gray-50 to-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold text-gray-900 mb-6">
+              Why Choose Our Gas Delivery Systems?
+            </h2>
+            <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-green-600 mx-auto"></div>
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <div>
+              <div className="space-y-8">
+                <div className="flex items-start">
+                  <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-blue-500 to-green-500 rounded-xl flex items-center justify-center mr-4">
+                    <CheckCircle className="h-6 w-6 text-white" />
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-bold text-gray-900 mb-2">Ultra-High Purity Standards</h3>
+                    <p className="text-gray-600">Delivering gases with purity levels up to 99.9999% for the most demanding semiconductor processes.</p>
+                  </div>
+                </div>
+                
+                <div className="flex items-start">
+                  <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-blue-500 to-green-500 rounded-xl flex items-center justify-center mr-4">
+                    <CheckCircle className="h-6 w-6 text-white" />
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-bold text-gray-900 mb-2">Automated Process Control</h3>
+                    <p className="text-gray-600">Advanced automation systems ensure consistent delivery parameters and reduce human error.</p>
+                  </div>
+                </div>
+                
+                <div className="flex items-start">
+                  <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-blue-500 to-green-500 rounded-xl flex items-center justify-center mr-4">
+                    <CheckCircle className="h-6 w-6 text-white" />
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-bold text-gray-900 mb-2">Comprehensive Safety Features</h3>
+                    <p className="text-gray-600">Multiple safety layers including leak detection, emergency shutdown, and containment systems.</p>
+                  </div>
+                </div>
+                
+                <div className="flex items-start">
+                  <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-blue-500 to-green-500 rounded-xl flex items-center justify-center mr-4">
+                    <CheckCircle className="h-6 w-6 text-white" />
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-bold text-gray-900 mb-2">Scalable Design</h3>
+                    <p className="text-gray-600">Modular systems that can be expanded or modified to meet changing production requirements.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div className="relative">
+              <img 
+                src="https://images.pexels.com/photos/159298/gears-cogs-machine-machinery-159298.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop"
+                alt="Advanced gas delivery control system"
+                className="rounded-2xl shadow-2xl"
+              />
+              <div className="absolute -bottom-6 -left-6 w-32 h-32 bg-gradient-to-br from-green-500 to-blue-500 rounded-2xl opacity-20"></div>
+            </div>
           </div>
         </div>
       </section>
