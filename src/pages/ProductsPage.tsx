@@ -1,5 +1,10 @@
 import { useState } from 'react';
 import { ArrowRight, Filter, Search, ExternalLink } from 'lucide-react';
+import fittings from '../assets/product-categories/fittings.jpg';
+import regulators from '../assets/product-categories/regulators.jpg';
+import accessories from '../assets/product-categories/accessories.jpg';
+import tubes from '../assets/product-categories/tubes.jpg';
+import valves from '../assets/product-categories/valves.jpg';
 
 const ProductsPage = () => {
   const [selectedCategory, setSelectedCategory] = useState('All');
@@ -11,35 +16,35 @@ const ProductsPage = () => {
     {
       title: "Tubes",
       category: "Tubes",
-      image: "https://images.pexels.com/photos/159298/gears-cogs-machine-machinery-159298.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop",
+      image: tubes,
       description: "High-precision stainless steel tubes designed for semiconductor manufacturing processes",
       link: "/products/tubes"
     },
     {
       title: "Valves",
       category: "Valves",
-      image: "https://images.pexels.com/photos/586019/pexels-photo-586019.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop",
+      image: valves,
       description: "Advanced control valves for precise flow regulation in critical applications",
       link: "/products/valves"
     },
     {
       title: "Fittings",
       category: "Fittings",
-      image: "https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop",
+      image: fittings,
       description: "Premium fittings ensuring seamless integration and contamination-free connections",
       link: "/products/fittings"
     },
     {
       title: "Regulators",
       category: "Regulators",
-      image: "https://images.pexels.com/photos/257736/pexels-photo-257736.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop",
+      image: regulators,
       description: "Advanced pressure regulation systems for optimal performance and safety",
       link: "/products/regulators"
     },
     {
       title: "Accessories",
       category: "Accessories",
-      image: "https://images.pexels.com/photos/162553/keys-workshop-mechanic-tools-162553.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop",
+      image: accessories,
       description: "Complete range of accessories for comprehensive system solutions",
       link: "/products/accessories"
     },

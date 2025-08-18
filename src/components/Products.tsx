@@ -1,5 +1,10 @@
 import { ArrowRight } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
+import tubes from '../assets/product-categories/tubes.jpg';
+import valves from '../assets/product-categories/valves.jpg';
+import fittings from '../assets/product-categories/fittings.jpg';
+import regulators from '../assets/product-categories/regulators.jpg';
+import accessories from '../assets/product-categories/accessories.jpg';
 
 const Products = () => {
   const navigate = useNavigate();
@@ -7,31 +12,31 @@ const Products = () => {
   const products = [
     {
       title: "Tubes",
-      image: "https://images.pexels.com/photos/159298/gears-cogs-machine-machinery-159298.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop",
+      image: tubes,
       description: "Precision tubes that form the backbone of your operations",
       path: "/products/tubes"
     },
     {
       title: "Valves",
-      image: "https://images.pexels.com/photos/586019/pexels-photo-586019.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop",
+      image: valves,
       description: "High-quality valves for precise flow control and regulation",
       path: "/products/valves"
     },
     {
       title: "Fittings",
-      image: "https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop",
+      image: fittings,
       description: "Premium fittings that ensure seamless integration",
       path: "/products/fittings"
     },
     {
       title: "Regulators",
-      image: "https://images.pexels.com/photos/257736/pexels-photo-257736.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop",
+      image: regulators,
       description: "Advanced pressure regulation systems for optimal performance",
       path: "/products/regulators"
     },
     {
       title: "Accessories",
-      image: "https://images.pexels.com/photos/162553/keys-workshop-mechanic-tools-162553.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop",
+      image: accessories,
       description: "Complete range of accessories for all your industrial needs",
       path: "/products/accessories"
     }
