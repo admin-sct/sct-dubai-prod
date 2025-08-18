@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowLeft, ArrowRight, Snowflake, Shield, Thermometer, CheckCircle, AlertTriangle, Wrench, Gauge } from 'lucide-react';
+import { ArrowLeft, ArrowRight, Snowflake, Shield, Thermometer, CheckCircle, AlertTriangle, Wrench, Gauge, BarChart3, Clock, Zap } from 'lucide-react';
 
 const CryogenicTanksPage = () => {
   const features = [
@@ -102,6 +102,27 @@ const CryogenicTanksPage = () => {
     }
   ];
 
+  const performanceMetrics = [
+    {
+      icon: BarChart3,
+      metric: "99.5%",
+      label: "Efficiency Rating",
+      description: "Industry-leading thermal efficiency"
+    },
+    {
+      icon: Clock,
+      metric: "30+ Years",
+      label: "Service Life",
+      description: "Long-lasting durability and reliability"
+    },
+    {
+      icon: Zap,
+      metric: "<0.5%",
+      label: "Daily Boil-off",
+      description: "Minimal product loss through evaporation"
+    }
+  ];
+
   const advantages = [
     {
       title: "Superior Thermal Performance",
@@ -162,7 +183,7 @@ const CryogenicTanksPage = () => {
       </section>
 
       {/* Overview Section */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-gradient-to-br from-blue-50 to-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
@@ -191,8 +212,38 @@ const CryogenicTanksPage = () => {
         </div>
       </section>
 
+      {/* Performance Metrics */}
+      <section className="py-20 bg-gradient-to-r from-blue-600 to-green-600">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold text-white mb-6">
+              Performance Excellence
+            </h2>
+            <p className="text-xl text-white/90 max-w-3xl mx-auto">
+              Our cryogenic tanks deliver exceptional performance across all key metrics
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {performanceMetrics.map((metric, index) => (
+              <div 
+                key={index}
+                className="text-center bg-white/10 backdrop-blur-sm rounded-3xl p-8 border border-white/10 hover:bg-white/20 transition-all duration-300"
+              >
+                <div className="flex items-center justify-center w-16 h-16 bg-white/20 rounded-2xl mx-auto mb-6">
+                  <metric.icon className="h-8 w-8 text-white" />
+                </div>
+                <div className="text-4xl font-bold text-white mb-2">{metric.metric}</div>
+                <div className="text-xl font-semibold text-white/90 mb-2">{metric.label}</div>
+                <p className="text-white/80">{metric.description}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Key Features */}
-      <section className="py-20 bg-gradient-to-br from-gray-50 to-white">
+      <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
@@ -223,7 +274,7 @@ const CryogenicTanksPage = () => {
       </section>
 
       {/* System Components */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-gradient-to-br from-gray-50 to-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
@@ -249,7 +300,7 @@ const CryogenicTanksPage = () => {
       </section>
 
       {/* Technical Specifications */}
-      <section className="py-20 bg-gradient-to-br from-gray-50 to-white">
+      <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
@@ -285,7 +336,7 @@ const CryogenicTanksPage = () => {
       </section>
 
       {/* Applications */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-gradient-to-br from-gray-50 to-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
@@ -322,7 +373,7 @@ const CryogenicTanksPage = () => {
       </section>
 
       {/* Key Advantages Section */}
-      <section className="py-20 bg-gradient-to-br from-gray-50 to-white">
+      <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
@@ -361,7 +412,7 @@ const CryogenicTanksPage = () => {
       </section>
 
       {/* Safety Features */}
-      <section className="py-20 bg-gradient-to-r from-blue-600 to-green-600">
+      <section className="py-20 bg-gradient-to-br from-gray-900 to-blue-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-white mb-6">

@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowLeft, ArrowRight, Shield, Droplets, Settings, CheckCircle, AlertTriangle, Wrench } from 'lucide-react';
+import { ArrowLeft, ArrowRight, Shield, Droplets, Settings, CheckCircle, AlertTriangle, Wrench, Beaker, FlaskConical, TestTube, Microscope } from 'lucide-react';
 
 const ChemicalDeliverySystemsPage = () => {
   const features = [
@@ -72,6 +72,33 @@ const ChemicalDeliverySystemsPage = () => {
     }
   ];
 
+  const processSteps = [
+    {
+      icon: Beaker,
+      step: "01",
+      title: "Chemical Analysis",
+      description: "Comprehensive analysis of chemical properties and handling requirements"
+    },
+    {
+      icon: FlaskConical,
+      step: "02", 
+      title: "System Design",
+      description: "Custom system design based on specific chemical compatibility and safety needs"
+    },
+    {
+      icon: TestTube,
+      step: "03",
+      title: "Testing & Validation",
+      description: "Rigorous testing to ensure system performance and safety compliance"
+    },
+    {
+      icon: Microscope,
+      step: "04",
+      title: "Quality Assurance",
+      description: "Final quality checks and certification before system deployment"
+    }
+  ];
+
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
@@ -113,7 +140,7 @@ const ChemicalDeliverySystemsPage = () => {
       </section>
 
       {/* Overview Section */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-gradient-to-br from-gray-50 to-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
@@ -135,6 +162,42 @@ const ChemicalDeliverySystemsPage = () => {
               />
               <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-gradient-to-br from-blue-500 to-green-500 rounded-2xl opacity-20"></div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Process Steps */}
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold text-gray-900 mb-6">
+              Our Development Process
+            </h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              From initial analysis to final deployment, we follow a systematic approach to ensure optimal results
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            {processSteps.map((step, index) => (
+              <div 
+                key={index}
+                className="relative group bg-gradient-to-br from-blue-50 to-green-50 rounded-3xl p-8 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-gray-100"
+              >
+                <div className="absolute top-4 right-4 text-6xl font-bold text-blue-100 group-hover:text-blue-200 transition-colors duration-300">
+                  {step.step}
+                </div>
+                <div className="flex items-center justify-center w-16 h-16 bg-gradient-to-br from-blue-500 to-green-500 rounded-2xl mb-6 group-hover:scale-110 transition-transform duration-300">
+                  <step.icon className="h-8 w-8 text-white" />
+                </div>
+                <h3 className="text-xl font-bold text-gray-900 mb-4 group-hover:text-blue-600 transition-colors duration-300">
+                  {step.title}
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  {step.description}
+                </p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
